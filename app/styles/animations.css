@@ -1,0 +1,28 @@
+/* 
+  Not a fan of global stylesheets like this but also not loving alternatives.
+  At least animations aren't as prone to collision or accidental style bugs.
+*/
+
+@keyframes fadeInContent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*
+  MODAL
+*/
+
+@keyframes modalSlideContentIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
